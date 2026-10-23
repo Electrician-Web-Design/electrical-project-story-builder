@@ -6,6 +6,10 @@ The tool drafts content from your records. It does not assess electrical safety 
 
 ![Complete example](docs/preview.png)
 
+## Live demo
+
+[Try Electrical Project Story Builder](https://electrician-web-design.github.io/electrical-project-story-builder/). The demo runs in your browser; entered data is not uploaded by the tool. GitHub provides the hosting and handles request logs.
+
 ## Start locally
 
 Requires Node.js 22 or later. No runtime dependencies or account required.

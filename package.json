@@ -1,6 +1,6 @@
 {
   "name": "electrical-project-story-builder",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Write a useful project example from the work you actually delivered, ready to check before it goes on your website.",
   "type": "module",
   "private": false,

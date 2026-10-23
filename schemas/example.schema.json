@@ -1,0 +1,81 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Electrical Project Story Builder example structure",
+  "description": "Structural guide to the supplied example. Runtime validation enforces supported states, publication gates and cross-field rules.",
+  "type": "object",
+  "properties": {
+    "sector": {
+      "type": "string"
+    },
+    "brief": {
+      "type": "string"
+    },
+    "scope": {
+      "type": "string"
+    },
+    "site_constraints": {
+      "type": "string"
+    },
+    "coordination": {
+      "type": "string"
+    },
+    "handover": {
+      "type": "string"
+    },
+    "publication_permission": {
+      "type": "boolean"
+    },
+    "anonymised": {
+      "type": "boolean"
+    },
+    "identity_approved": {
+      "type": "boolean"
+    },
+    "client": {
+      "type": "string"
+    },
+    "location": {
+      "type": "string"
+    },
+    "evidence": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "text": {
+            "type": "string"
+          },
+          "source": {
+            "type": "string"
+          },
+          "approved": {
+            "type": "boolean"
+          }
+        },
+        "required": [
+          "text",
+          "source",
+          "approved"
+        ]
+      }
+    },
+    "photos": {
+      "type": "array"
+    }
+  },
+  "required": [
+    "sector",
+    "brief",
+    "scope",
+    "site_constraints",
+    "coordination",
+    "handover",
+    "publication_permission",
+    "anonymised",
+    "identity_approved",
+    "client",
+    "location",
+    "evidence",
+    "photos"
+  ]
+}

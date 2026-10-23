@@ -1,0 +1,42 @@
+{
+  "title": "Warehouse lighting / fictional project story",
+  "summary": "Publication draft composed only from supplied project facts. No electrical design or safety assessment.",
+  "identity": null,
+  "sections": [
+    {
+      "heading": "The brief",
+      "text": "Explain a lighting replacement project without presenting the example as a real client job."
+    },
+    {
+      "heading": "Work completed",
+      "text": "Replace the agreed lighting equipment in the example work areas."
+    },
+    {
+      "heading": "Site constraints",
+      "text": "Work was planned around the fictional warehouse operating hours."
+    },
+    {
+      "heading": "Coordination",
+      "text": "The example brief records phased access with the site contact."
+    },
+    {
+      "heading": "Handover",
+      "text": "The contractor would supply the actual approved handover information."
+    }
+  ],
+  "approved": [
+    {
+      "text": "The example uses a phased access plan.",
+      "source": "Synthetic project brief"
+    }
+  ],
+  "photos": [],
+  "issues": [
+    {
+      "code": "evidence",
+      "message": "An unsupported or unapproved result claim was excluded",
+      "source": ""
+    }
+  ],
+  "markdown": "# Warehouse lighting / fictional project story\n\n## The brief\n\nExplain a lighting replacement project without presenting the example as a real client job.\n\n## Work completed\n\nReplace the agreed lighting equipment in the example work areas.\n\n## Site constraints\n\nWork was planned around the fictional warehouse operating hours.\n\n## Coordination\n\nThe example brief records phased access with the site contact.\n\n## Handover\n\nThe contractor would supply the actual approved handover information.\n\n## Approved evidence\n\n- The example uses a phased access plan. (Source: Synthetic project brief)"
+}

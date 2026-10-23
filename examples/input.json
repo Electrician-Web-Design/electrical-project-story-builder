@@ -1,0 +1,26 @@
+{
+  "sector": "Warehouse lighting / fictional",
+  "brief": "Explain a lighting replacement project without presenting the example as a real client job.",
+  "scope": "Replace the agreed lighting equipment in the example work areas.",
+  "site_constraints": "Work was planned around the fictional warehouse operating hours.",
+  "coordination": "The example brief records phased access with the site contact.",
+  "handover": "The contractor would supply the actual approved handover information.",
+  "publication_permission": true,
+  "anonymised": true,
+  "identity_approved": false,
+  "client": "PRIVATE CLIENT NAME",
+  "location": "PRIVATE EXACT LOCATION",
+  "evidence": [
+    {
+      "text": "Unsupported 70 percent energy saving",
+      "source": "",
+      "approved": false
+    },
+    {
+      "text": "The example uses a phased access plan.",
+      "source": "Synthetic project brief",
+      "approved": true
+    }
+  ],
+  "photos": []
+}

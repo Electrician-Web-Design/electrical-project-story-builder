@@ -1,7 +1,7 @@
 {
   "name": "electrical-project-story-builder",
-  "version": "0.1.0",
-  "description": "Create a reviewable commercial electrical case study from approved scope, constraints and evidence.",
+  "version": "0.2.0",
+  "description": "Write a useful project example from the work you actually delivered, ready to check before it goes on your website.",
   "type": "module",
   "private": false,
   "license": "MIT",

@@ -1,60 +1,49 @@
-# Electrical Project Story Builder
+# Commercial Electrical Case Study Builder
 
-Electrical Project Story Builder helps a commercial contractor turn approved project notes into a clear website case study. It separates what was done, the constraints involved and the evidence available for any result claim.
+Write a useful project example from the work you actually delivered, ready to check before it goes on your website.
 
-The tool drafts content from your records. It does not assess electrical safety or certify work. Maintained by [Electrician Web Design](https://electricianwebdesign.uk/), operated by JW Digital Services Ltd.
+**For commercial electrical contractors. No coding knowledge needed.**
 
-![Complete example](docs/preview.png)
+[Open the free tool](https://electrician-web-design.github.io/electrical-project-story-builder/) · [See a fictional worked example](https://electrician-web-design.github.io/electrical-project-story-builder/examples/customer-output.html)
 
-## Live demo
+![Desktop preview](docs/preview.png)
 
-[Try Electrical Project Story Builder](https://electrician-web-design.github.io/electrical-project-story-builder/). The demo runs in your browser; entered data is not uploaded by the tool. GitHub provides the hosting and handles request logs.
+## How to use it
 
-## Start locally
+1. Open the tool in your browser. No installation or account is needed.
+2. Use your own business details in the labelled fields, or choose **Try a fictional example**.
+3. Choose **Build my project story** and review the result.
+4. Adjust your answers, then copy the result, download a text file or choose **Print / Save PDF**.
 
-Requires Node.js 22 or later. No runtime dependencies or account required.
+A structured project story and a short publication checklist.
+
+## What to expect
+
+Describe the brief, the work and the handover. Client names are left out unless you confirm you have permission to use them.
+
+Use approved project facts only. This does not provide installation advice or verify technical safety, qualifications or compliance.
+
+Your answers are processed in the browser tab. They are not uploaded, emailed or saved by the tool. Refreshing or closing the tab clears them. Save your result before leaving. GitHub provides hosting and handles normal request logs. Example details are fictional, not customer results.
+
+## Design and maintenance
+
+The interface uses the colours, typography and visual treatment of [Electrician Web Design](https://electricianwebdesign.uk/). The tool is maintained by Electrician Web Design, operated by JW Digital Services Ltd. The commercial website is a separate project.
+
+## For developers
+
+The customer tool uses native HTML controls and small browser modules, with no runtime framework. Its planning or calculation rules are in `src/customer.js`; presentation helpers are in `src/customer-ui.js`.
 
 ```sh
-npm ci
+npm ci --ignore-scripts
 npm test
 npm run build
 npm run serve
 ```
 
-Open http://127.0.0.1:4173/ for the complete local demonstration. Browser examples do not upload or persist entered data. The optional development server binds to loopback only.
+Open the local address printed by the server. `npm run build:pages` prepares the static GitHub Pages artifact. Tests cover the customer rules and output escaping.
 
-## Input and output
+The original v0.1 developer helpers remain in `src/index.js` for compatibility, with their original examples. They are not needed to use the customer tool. The existing repository name and Pages URL are retained so earlier links keep working.
 
-Supply sector, brief, scope, site_constraints, coordination, handover, publication_permission (boolean), anonymised (boolean), identity_approved, client, location, evidence [{text,source,approved}] and photos [{url,alt,approved}]. Unapproved claims and identity fields are excluded from output.
+## Licence and feedback
 
-Use [examples/input.json](examples/input.json) as the complete input contract. Compare the generated [JSON result](examples/output.json), [Markdown report](examples/output.md) and [complete HTML](examples/output.html). The demo is in [demo/index.html](demo/index.html). It needs the local server for JavaScript modules. HTML reports can be opened as standalone files.
-
-```sh
-node cli.mjs examples/input.json --format json
-node cli.mjs examples/input.json --format html --output report.html
-node cli.mjs examples/input.json --format md --output report.md
-```
-
-This resource uses nested JSON input. See the complete example and `node cli.mjs --help`.
-
-## Worked example
-
-Use a clearly fictional warehouse-lighting project. Include an access constraint, a phased work programme, a supplied handover description and an unsupported energy-saving percentage. The first three can appear in the example draft; the percentage must stay out until evidence is supplied. Use original diagram placeholders rather than fabricated job photos.
-
-All supplied example records are synthetic. No clients, outcomes, current professional advice or real service availability are represented by them. Keep real records private and review output before sharing it.
-
-## Checks
-
-- Unapproved metrics, names, photographs and locations cannot reach the public draft.
-- Anonymised mode removes exact identifying fields rather than merely hiding them visually.
-- Empty scope and contradictory permission fields block publication output with a clear explanation.
-- Generated Markdown escapes supplied markup appropriately and preserves legitimate technical wording.
-- The fictional example visibly excludes its unsupported energy claim, with a test proving the exclusion.
-
-The automated results and browser checks performed for this release are recorded in [verification.md](docs/verification.md). Manual screen-reader testing has not been performed. A passing automated check is not accessibility certification.
-
-## Contribute and maintain
-
-Use [Issues](https://github.com/Electrician-Web-Design/electrical-project-story-builder/issues) for a reproducible bug and [Discussions](https://github.com/Electrician-Web-Design/electrical-project-story-builder/discussions) for questions and improvements. Follow [CONTRIBUTING.md](CONTRIBUTING.md); report vulnerabilities privately using [SECURITY.md](SECURITY.md). See [CHANGELOG.md](CHANGELOG.md) for releases. Maintenance is best effort.
-
-Code, original illustrations and synthetic fixtures are MIT licensed. There is no required website backlink when reusing the resource. Commercial brand assets and third-party material are not included.
+MIT for tool code. Bundled typefaces retain their original licence notices in `demo/assets/font-licences`. [Ideas and feedback](https://github.com/Electrician-Web-Design/electrical-project-story-builder/discussions/1).

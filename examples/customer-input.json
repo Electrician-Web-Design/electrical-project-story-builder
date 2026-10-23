@@ -1,0 +1,11 @@
+{
+  "sector": "Warehouse lighting refurbishment",
+  "location": "Greater Manchester",
+  "permission": "no",
+  "client": "Example Client",
+  "brief": "Replace agreed lighting in an occupied warehouse.",
+  "work": "The team replaced the specified fittings in agreed work zones.",
+  "constraints": "Work was scheduled around the client’s operating hours.",
+  "handover": "The completed scope and project records were reviewed with the site contact.",
+  "outcome": "The agreed work zones were handed back to the client."
+}

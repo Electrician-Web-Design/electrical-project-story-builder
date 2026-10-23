@@ -3,9 +3,10 @@
   "org": "Electrician-Web-Design",
   "brand": "Electrician Web Design",
   "slug": "electrical-project-story-builder",
-  "title": "Electrical Project Story Builder",
+  "title": "Commercial Electrical Case Study Builder",
   "profile": "Websites for commercial electrical contractors, with clear scope and project content. Operated by JW Digital Services Ltd.",
-  "accent": "#574117",
-  "tint": "#fff4cc",
-  "summary": "Create a reviewable commercial electrical case study from approved scope, constraints and evidence."
+  "accent": "#03abd0",
+  "tint": "#dceef0",
+  "summary": "Write a useful project example from the work you actually delivered, ready to check before it goes on your website.",
+  "brandMark": "<svg viewBox=\"0 0 48 48\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"m29 3-19 24h13l-4 18 20-27H26Z\"/></svg>"
 }
